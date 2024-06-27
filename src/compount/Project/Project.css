@@ -1,0 +1,44 @@
+.project-container {
+  padding-top: 80px;
+}
+.project-container h5 {
+  margin-bottom: 3rem;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.project-card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+  gap: 90px;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #14213d;
+  border: 1px solid rgba(65, 70, 122, 0.404);
+  box-shadow: 10px 15px 15px rgb(17, 6, 53);
+  padding: 15px 20px;
+  border-radius: 10px;
+  transition: all 0.5s ease-out;
+}
+.box:hover {
+  transform: translateY(-10px);
+}
+.box img {
+  width: 100%;
+  border-radius: 10px;
+  height: 250px;
+ object-fit: cover;
+}
+.box h6 {
+  margin-top: 10px;
+}
+
+@media (max-width: 1021px) {
+  .project-card-container {
+    gap: 50px;
+  }
+}

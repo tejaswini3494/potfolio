@@ -1,0 +1,26 @@
+.contact-container {
+  padding-top: 80px;
+}
+.contact-container h5 {
+  margin-bottom: 3rem;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.contact-content {
+  display: flex;
+
+  gap: 2rem;
+}
+.contact-content .contact-card {
+  flex: 1;
+}
+.contact-content .contact-me {
+  flex: 1;
+}
+@media (max-width: 768px) {
+  .contact-content {
+    flex-direction: column-reverse;
+    gap: 1rem;
+  }
+}
