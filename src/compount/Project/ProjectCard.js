@@ -8,7 +8,7 @@ export default function ProjectCard({ ProjectList }) {
         {ProjectList.map((curElem) => {
           return (
             <>
-              <div className="box">
+              <div className="box" > 
                 <img src={curElem.img} alt="" />
 
                 <h6>{curElem.name}</h6>

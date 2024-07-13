@@ -10,7 +10,8 @@ export default function About() {
             <img src="Image/01.jpg" alt="" />
           </div>
           <div className="about-text-container">
-            <h2>I am Tejaswini Virshaiv& I am Web Designer</h2>
+            <h2>I am Tejaswini Virshaiv & </h2>
+            <h2> I am Web Designer</h2>
             <p>
               I am skilled at Frontend technology like HTML, CSS and Javascript
               their use to built, design and improve responsive webiste and web
