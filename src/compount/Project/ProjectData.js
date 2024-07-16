@@ -1,24 +1,21 @@
 const ProjectData = [
   {
-    name: "E-commerce",
+    name: "E-commerce Website",
 
-    img: "Image/e-commerce.jpg",
-
-    description:
-      "loremsbdkshfeigufksmedbcfmsdc mshdgfsjedfwkjsmd xmsafd gdjwembd eudegfmdvfcm vsvd",
+    img: "Image/ecommerce.png",
+    demo: "https://tejaswini3494.github.io/currency-converter/",
   },
   {
-    name: "Potfolio",
+    name: "Potfolio Website",
 
-    img: "Image/potfolio.jpg",
-
-    description: "lorekdnckdckd",
+    img: "Image/pofolio.png",
+    demo: "https://tejaswini3494.github.io/potfolio/",
   },
   {
-    name: "Currency",
+    name: "Currency Converter",
 
-    img: "Image/currency.jpg",
-    description: "lorekdnckdckd",
+    img: "Image/currency.png",
+    demo: "https://tejaswini3494.github.io/currency-converter/",
   },
 ];
 export default ProjectData;
