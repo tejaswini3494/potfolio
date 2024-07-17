@@ -1,20 +1,22 @@
+import ecommerce from "../Image/ecommerceA.png";
+import pofolio from "../Image/potfolio.png";
+import currency from "../Image/currencyA.png";
+
 const ProjectData = [
   {
     name: "E-commerce Website",
-
-    img: "Image/ecommerce.png",
-    demo: "https://tejaswini3494.github.io/currency-converter/",
+    img: ecommerce,
   },
   {
     name: "Potfolio Website",
 
-    img: "Image/pofolio.png",
+    img: pofolio,
     demo: "https://tejaswini3494.github.io/potfolio/",
   },
   {
     name: "Currency Converter",
 
-    img: "Image/currency.png",
+    img: currency,
     demo: "https://tejaswini3494.github.io/currency-converter/",
   },
 ];

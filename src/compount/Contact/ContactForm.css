@@ -18,6 +18,7 @@ form textarea {
   border-radius: 5px;
   width: 100%;
   outline: none;
+ color: rgb(213, 212, 225);
 }
 .contact-btn {
   background: linear-gradient(90deg, #a993fe 0%, #7e61e7 100%);

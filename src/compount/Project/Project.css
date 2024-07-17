@@ -24,14 +24,20 @@
   border-radius: 10px;
   transition: all 0.5s ease-out;
 }
+.box a {
+  font-size: 15px;
+  color: rgb(104, 89, 203);
+  margin: 5px 0;
+}
+
 .box:hover {
   transform: translateY(-10px);
 }
 .box img {
   width: 100%;
   border-radius: 10px;
-  height: 250px;
- object-fit: cover;
+  height: 200px;
+  object-fit: contain;
 }
 .box h6 {
   margin-top: 10px;

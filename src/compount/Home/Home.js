@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.css";
 
+import Image from "../Image/07.jpg";
 export default function Home() {
   return (
     <>
@@ -8,18 +9,15 @@ export default function Home() {
         <div className="home-content">
           <h2>Hellow, I'M Tejaswini Virshaiv</h2>
           <p>
-            I am a Web Designer This is my official portfolio website to showes
-            all Details and work experience web development
+            I am a Frontend Developer . This is my official portfolio website to
+            showes all Details and work experience web development .
           </p>
-          {/* <marquee behavior="" direction="left">  WELCOME TO MY POTFOLIO WEBSITE .....!</marquee> */}
-       
-          <button className="btn">
-              Hire Me
-            </button>
+
+          <button className="btn">Hire Me</button>
         </div>
 
         <div className="home-img">
-          <img src="Image/home.png" alt="" />
+          <img src={Image} alt="" />
         </div>
       </section>
     </>

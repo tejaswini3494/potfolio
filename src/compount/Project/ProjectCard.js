@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 export default function ProjectCard({ ProjectList }) {
   return (
@@ -12,7 +11,7 @@ export default function ProjectCard({ ProjectList }) {
               <div className="box" > 
                 <img src={curElem.img} alt="" />
                 <h6>{curElem.name}</h6>
-                <Link to={curElem.demo}>Demo</Link>
+                <a href={curElem.demo} className="menu-item ">Demo ►</a>
               </div>
             </>
           );

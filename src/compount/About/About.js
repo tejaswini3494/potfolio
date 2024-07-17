@@ -1,5 +1,6 @@
 import React from "react";
 import "./About.css";
+import Image from '../Image/11.jpg'
 export default function About() {
   return (
     <>
@@ -7,15 +8,15 @@ export default function About() {
         <h5>About Us</h5>
         <div className="about-content">
           <div className="about-education">
-            <img src="Image/01.jpg" alt="" />
+            <img src={Image} alt="" />
           </div>
           <div className="about-text-container">
             <h2>I am Tejaswini Virshaiv & </h2>
-            <h2> I am Web Designer</h2>
+            <h2> I am Frontend Developer </h2>
             <p>
               I am skilled at Frontend technology like HTML, CSS and Javascript
               their use to built, design and improve responsive webiste and web
-              application
+              application .
             </p>
             <div className="education-text">
               <h4>Education</h4>
