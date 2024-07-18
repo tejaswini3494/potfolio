@@ -7,7 +7,7 @@ export default function Home() {
     <>
       <section className="home-conatiner" id="#">
         <div className="home-content">
-          <h2>Hellow, I'M Tejaswini Virshaiv</h2>
+          <h2>Hellow, I'M Tejaswini Virshaiv .</h2>
           <p>
             I am a Frontend Developer . This is my official portfolio website to
             showes all Details and work experience web development .
