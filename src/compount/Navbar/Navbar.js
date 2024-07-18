@@ -1,7 +1,12 @@
 import React from "react";
 import "./Navbar.css";
+import { useState } from "react";
 
 export default function Navbar() {
+  const [menuopen, setMenuOpen] = useState(false);
+  const get = () => {
+    setMenuOpen(!menuopen);
+  };
   return (
     <>
       <nav className="nav-wrapper">
@@ -9,12 +14,12 @@ export default function Navbar() {
           <h2 className="logo">
             Tejaswi<span>ni</span>
           </h2>
-          <div className="menu">
+          <div className="menu" onClick={get}>
             <span></span>
             <span></span>
             <span></span>
           </div>
-          <ul>
+          <ul className={menuopen ? "open" : ""}>
             <li>
               <a className="menu-item" href="#">
                 Home
@@ -40,11 +45,8 @@ export default function Navbar() {
                 Contact
               </a>
             </li>
-            <button className="btn" >
-              Hire Me
-            </button>
+            <button className="btn">Hire Me</button>
           </ul>
-        
         </nav>
       </nav>
     </>

@@ -13,7 +13,9 @@ export default function SkillsInfoCard({ skillsCard }) {
                 return (
                   <>
                     <div className="psection">
-                      <p>{item.skill}</p>
+                      <p className="skill">{item.skill}</p>
+                      <p className="skill-score"> {item.score}</p>
+                     
                     </div>
                   </>
                 );

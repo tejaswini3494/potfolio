@@ -25,12 +25,13 @@
   height: 400px;
   object-fit: contain;
   border-radius: 50%;
-  border: 2px solid rgb(68, 51, 84);
+  background-color: rgba(5, 3, 23, 0.938);
+  border: 5px solid rgb(10, 8, 53);
   transition: all 0.3s;
 }
 .about-education img:hover {
   transform: translateX(-30px);
-  box-shadow: 3px 3px 18px gray;
+  box-shadow: 3px 3px 18px rgba(88, 88, 88, 0.55);
 }
 .about-text-container {
   display: flex;
@@ -88,6 +89,7 @@
   }
   .about-content img {
     width: 20rem;
+    height: 20rem;
   }
   .about-text-container {
     align-items: center;

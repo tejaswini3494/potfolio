@@ -1,17 +1,14 @@
 .skills-container {
-  /* background-color: black; */
   padding-top: 70px;
 }
 
-.skills-container  h5 {
+.skills-container h5 {
   margin-bottom: 3rem;
   font-size: 2rem;
   font-weight: 700;
-  
 }
 
 .skills-content {
-  
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
   gap: 90px;
@@ -39,18 +36,20 @@
 
   padding-top: 20px;
 }
+
+.psection .skill-score {
+  font-size: 0.8rem;
+  color: gray;
+  margin-top: -13px;
+}
 .skills-div {
- 
   height: 300px;
-  
+
   border: 2px solid #7e61e7;
- 
 }
 
-@media (max-width:1021px) {
+@media (max-width: 1021px) {
   .skills-content {
-  
-   
     gap: 50px;
   }
 }

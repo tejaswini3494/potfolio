@@ -42,7 +42,10 @@
 .box h6 {
   margin-top: 10px;
 }
-
+a .play{
+  width: 30px;
+  height: 30px;
+}
 @media (max-width: 1021px) {
   .project-card-container {
     gap: 50px;
