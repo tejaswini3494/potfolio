@@ -14,8 +14,8 @@ export default function About() {
             <h2>I am Tejaswini Virshaiv & </h2>
             <h2> I am Frontend Developer </h2>
             <p>
-              I am skilled at Frontend technology like HTML, CSS and Javascript
-              their use to built, design and improve responsive webiste and web
+              I am skilled at Frontend technology like HTML, CSS and JavaScript
+              their use to built, design and improve responsive website and web
               application .
             </p>
             <div className="education-text">
