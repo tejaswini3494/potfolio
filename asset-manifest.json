@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/potfolio/static/css/main.73050b11.css",
-    "main.js": "/potfolio/static/js/main.c45dd267.js",
+    "main.css": "/potfolio/static/css/main.e087c26d.css",
+    "main.js": "/potfolio/static/js/main.773479a7.js",
     "static/js/453.f66438e5.chunk.js": "/potfolio/static/js/453.f66438e5.chunk.js",
     "static/media/potfolio.png": "/potfolio/static/media/potfolio.6eb91b1b159403425f09.png",
     "static/media/ecommerceA.png": "/potfolio/static/media/ecommerceA.d42d6de9e5f74761244d.png",
+    "static/media/Resume.pdf": "/potfolio/static/media/Resume.cbb739755c066a21c3a4.pdf",
     "static/media/play.jpg": "/potfolio/static/media/play.965c86b6dc3ba6bd1ce1.jpg",
     "static/media/07.jpg": "/potfolio/static/media/07.fc1e9e4c0e20744c2918.jpg",
     "static/media/email2.png": "/potfolio/static/media/email2.f91e1b32c3a0a7a28997.png",
@@ -12,12 +13,12 @@
     "static/media/currencyA.png": "/potfolio/static/media/currencyA.d550671bd34b6672276c.png",
     "static/media/phone-512.webp": "/potfolio/static/media/phone-512.2c66d503d4c40db163b2.webp",
     "index.html": "/potfolio/index.html",
-    "main.73050b11.css.map": "/potfolio/static/css/main.73050b11.css.map",
-    "main.c45dd267.js.map": "/potfolio/static/js/main.c45dd267.js.map",
+    "main.e087c26d.css.map": "/potfolio/static/css/main.e087c26d.css.map",
+    "main.773479a7.js.map": "/potfolio/static/js/main.773479a7.js.map",
     "453.f66438e5.chunk.js.map": "/potfolio/static/js/453.f66438e5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.73050b11.css",
-    "static/js/main.c45dd267.js"
+    "static/css/main.e087c26d.css",
+    "static/js/main.773479a7.js"
   ]
 }
