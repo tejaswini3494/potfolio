@@ -1,5 +1,9 @@
 import React from "react";
 import "./Home.css";
+import { MdOutlineFileDownload } from "react-icons/md";
+import Resume from "./Resume.pdf"
+
+
 
 import Image from "../Image/07.jpg";
 export default function Home() {
@@ -13,9 +17,11 @@ export default function Home() {
             shows all Details and work experience web development .
           </p>
 
-          <button className="btn">Hire Me</button>
+          <button className="btn"><a href={Resume} download="Resume">Resume</a>
+          <MdOutlineFileDownload /></button>
+       
         </div>
-
+    
         <div className="home-img">
           <img src={Image} alt="" />
         </div>

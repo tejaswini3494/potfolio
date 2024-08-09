@@ -6,6 +6,7 @@ const ProjectData = [
   {
     name: "E-commerce Website",
     img: ecommerce,
+    demo:"https://tejaswini3494.github.io/Ecommerce-website/"
   },
   {
     name: "Potfolio Website",

@@ -23,6 +23,13 @@
   width: 80%;
   margin-bottom: 2rem;
 }
+.home-content a{
+ color: aliceblue;
+}
+.home-content a:hover{
+ color: #fff;
+ color: #7e61e7;
+}
 .home-img {
   position: relative;
   top: 30px;
