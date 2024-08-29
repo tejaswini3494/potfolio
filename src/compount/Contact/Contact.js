@@ -12,7 +12,7 @@ export default function Contact() {
         <h5>Contact Us</h5>
         <div className="contact-content">
             <div className="contact-card">
-                <ContactCard text="9921467654" icon={Phone}/>
+                <ContactCard text="9921460621" icon={Phone}/>
                 <ContactCard text="virshaivtejaswini@gmail.com" icon={Emain}/>
             </div>
             <div className="contact-me">
